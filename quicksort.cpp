@@ -9,7 +9,7 @@ int r = 4;
 int partition(int* A,int p,int r)
 {
     int x = A[r];
-    int i = p-1;
+    int i = P-1;
 
     for(int j = p;j<r;j++)
     {
@@ -38,7 +38,7 @@ void quicksort(int *A,int p, int r)
 void main()
 {
 
-    printf("Enter the elements of 1D matrix\n");
+    printf("Enter the elements of 1D array\n");
     for(int i = 0;i<5;i++)
     {
         scanf("%d",&array[i]);
