@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include <bits/stdc++.h>
 
-int arr[5];
+int array[5];
 using namespace std;
 int p = 0;
 int r = 4;
@@ -41,14 +41,14 @@ int main()
     printf("Enter the elements of array\n");
     for(int i = 0;i<5;i++)
     {
-        scanf("%d",&arr[i]);
+        scanf("%d",&array[i]);
     }
 
     quicksort(arr,p,r);
 
     for(int i = 0;i<5;i++)
     {
-        printf("%d ",arr[i]);
+        printf("%d ",array[i]);
     }
 
 return 0;
