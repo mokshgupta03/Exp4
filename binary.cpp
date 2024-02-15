@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void main()
+int main()
 {
     int i,array[10],n,element,lb=0,ub,mid;
 cout<<"Enter the no of elements you want in array"<<endl;
@@ -35,4 +35,5 @@ while(lb<=ub)
     }
     
 }
+return 0;
 }

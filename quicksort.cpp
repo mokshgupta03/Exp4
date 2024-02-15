@@ -35,7 +35,7 @@ void quicksort(int *A,int p, int r)
 }
 
 
-void main()
+int main()
 {
 
     printf("Enter the elements of array\n");
@@ -50,6 +50,6 @@ void main()
     {
         printf("%d ",array[i]);
     }
-
+return 0;
 
 }
