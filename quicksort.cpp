@@ -38,7 +38,7 @@ void quicksort(int *A,int p, int r)
 void main()
 {
 
-    printf("Enter the elements of array\n");
+    printf("Enter the elements of 1D matrix\n");
     for(int i = 0;i<5;i++)
     {
         scanf("%d",&array[i]);
